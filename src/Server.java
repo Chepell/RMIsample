@@ -5,7 +5,7 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
-// First run server
+// Сервер стартует первым
 public class Server {
     private static final String UNIC_BINDING_NAME = "math.calculation";
 

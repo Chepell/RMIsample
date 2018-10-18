@@ -4,7 +4,7 @@ import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
-// At second run client
+// Клиент запускается вторым
 public class Client {
     private static final String UNIC_BINDING_NAME = "math.calculation";
 
